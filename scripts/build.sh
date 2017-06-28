@@ -4,8 +4,8 @@ set -eo pipefail
 
 # Install merge plugin.
 
-echo "$HOME"
 echo $HOME
+echo $PWD
 
 docker run --rm \
     -v "$HOME/.composer":/composer \
