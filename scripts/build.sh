@@ -3,6 +3,10 @@
 set -eo pipefail
 
 # Install merge plugin.
+
+echo "$HOME"
+echo $HOME
+
 docker run --rm \
     -v "$HOME/.composer":/composer \
     -v "$PWD":/app \
